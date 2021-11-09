@@ -1,0 +1,63 @@
+@import './scss/header';
+@import './scss/banner';
+@import './scss/best-gift';
+@import './scss/build-base';
+
+*,
+*::before,
+*::after{
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a{
+   text-decoration: none;
+}
+ul,
+ol,
+li{
+   list-style:none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   font-weight: inherit;
+   font-size: inherit;
+}
+html,
+body{
+   height: 100%;
+   line-height: 1;
+   font-size: 14px;
+   color: #252B42;
+   font-family: Montserrat;
+   font-weight: 500;
+   background: #fafafa;
+}
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+._container{
+   max-width: 1400px;
+   padding: 0px 15px;
+   margin: 0px auto;
+   box-sizing: content-box;
+}
+
+
+.revo__container{
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+
+

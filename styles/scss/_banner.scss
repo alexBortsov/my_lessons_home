@@ -1,0 +1,112 @@
+.page__header {
+   flex: 1 1 auto;
+}
+.revo__container {
+}
+.revo__body {
+   display: flex;
+}
+.revo__header {
+   flex: 0 1 28%;
+   //padding: 0px 0px 726px 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap;
+
+}
+.revo__logo {
+   margin: 75px 0px 0px 187px;
+   
+}
+.revo__main {
+   position: relative;
+   width: 100%;
+   height: 250px;  
+}
+.main__body {
+  
+}
+.main__header_title {
+   font-size: 54px;
+   font-weight: 900;
+   line-height: 129%;
+   position: absolute;
+   top: 0%;
+   left: 43%;
+   z-index: 3;
+
+}
+.title__span_bg {
+   background: #C7A17A;
+   color: #fff;
+}
+.revo__cover {
+   flex: 0 1 50%;
+   position: relative;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   z-index: 1;
+
+}
+.button__img {
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 22px;
+   border-radius: 50%;
+   top: calc(50% - 15px);
+   left: calc(50% - 15px);
+}
+.revo__basket-menu {
+   flex: 0 1 22%;
+   width: 100%;
+   height: 100%;
+   background: #415167;
+   object-fit: cover;
+   padding: 0px 10px 249px 62px;
+   margin: 0px 0px 0px -15px;
+   
+
+   
+
+}
+.revo__basket {
+   margin: 103px 0px 123px 0px;
+   position: relative;
+}
+.revo__basket::after{
+   content: '2';
+   position: absolute;
+   top: -18px;
+   left: 16px;
+   background: #C7A17A;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   padding: 4px;
+}
+.revo__menu {
+}
+.menu {
+}
+.revo__list {
+}
+.list__item {
+}
+.list__item:not(:last-child){
+   margin: 0px 0px 30px 0px;
+}
+.item__link {
+   font-family: 'Nunito';
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 136%;
+   color: #EDF0F5;
+}
