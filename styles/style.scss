@@ -2,7 +2,11 @@
 @import './scss/banner';
 @import './scss/best-gift';
 @import './scss/build-base';
+@import './scss/choose__coffee';
 
+%Nunito{
+   font-family: 'Nunito';
+}
 *,
 *::before,
 *::after{

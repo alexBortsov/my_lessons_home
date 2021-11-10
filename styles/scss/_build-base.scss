@@ -1,7 +1,7 @@
-.build-base {
-}
-.build-base__container {
-}
+//.build-base {
+//}
+//.build-base__container {
+//}
 
 .header__block {
    margin: 84px 0px 72px 0px;
@@ -25,8 +25,9 @@
 .build-base__body {
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-around;
    flex-wrap: wrap;
+   margin: 0px 0px 120px 0px
 }
 .build-base__column {
    flex: 0 1 15%;

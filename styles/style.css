@@ -133,8 +133,9 @@
 .build-base__body {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0px 0px 120px 0px;
 }
 
 .build-base__column {
@@ -164,6 +165,114 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 136%;
+}
+
+.choose-coffee__container {
+  background: linear-gradient(270deg, #f2f2f2 63%, #415167 27%);
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+
+.block__cart-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0px 0px 128px 109px;
+  z-index: 3;
+  gap: 1%;
+  width: 127%;
+}
+
+.cart-product__item {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  background-color: #FFFFFF;
+}
+
+.cart-product__item:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.cart-product__img {
+  background-color: #EDF0F5;
+}
+
+.product__prices {
+  margin: 42px;
+}
+
+.product__price {
+  color: #C7A17A;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  margin: 0px 0px 8px 0px;
+}
+
+.product__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 116%;
+  color: #232C38;
+  margin: 0px 0px 24px 0px;
+}
+
+.product__text {
+  color: #151D28;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 116%;
+  margin: 0px 0px 24px 0px;
+}
+
+.product__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.product__link_gold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 15px;
+  color: #fff;
+  background-color: #C7A17A;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 0px 29px 0px 0px;
+}
+
+.product__link {
+  color: #415167;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 15px;
+}
+
+.choose-coffee_shift {
+  position: absolute;
+  top: calc(55.5% - 24px);
+  right: 4%;
+}
+
+.shift__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  background: #C7A17A;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.product__price, .product__title, .product__text {
+  font-family: "Nunito";
 }
 
 *,
