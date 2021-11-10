@@ -1,44 +1,178 @@
-//.best-gift {
-  
-//}
+
 .best-gift__container {
-   background: -webkit-linear-gradient(270deg, rgb(255, 255, 255) 34%, rgb(237, 240, 245) 17%);
-   background: -moz-linear-gradient(270deg, rgb(255, 255, 255) 34%, rgb(237, 240, 245) 17%);
-   background: linear-gradient(270deg, rgb(255, 255, 255) 34%, rgb(237, 240, 245) 17%);
- position: relative; 
+   background: -webkit-linear-gradient(270deg, rgb(255, 255, 255) 32%, rgb(237, 240, 245) 17%);
+   background: -moz-linear-gradient(270deg, rgb(255, 255, 255) 32%, rgb(237, 240, 245) 17%);
+   background: linear-gradient(270deg, rgb(255, 255, 255) 32%, rgb(237, 240, 245) 17%);
+   background-size: cover;
+   position: relative;
+ width: 100%;
+}
+.best-gift__container::after{
+   content: '';
+   padding: 0px 0px 126px 0px;
+   width: 100%;
+   display: block;
+   height: 100%;
+}
+.best-gift_header{
+   padding: 84px 0px 0px 0px;
+   margin: 0px 0px 72px 0px;
+   text-align: center;
+}
+.best-gift__content{
+   display: flex;
+   align-items: center;
+   justify-content: center;  
+}
+.best-gift__image {
+   flex: 0 1 20%;
+   margin: 0px -15% 0px 0px;
+   z-index: 5;
+   padding: 51px 0px 0px 0px
 }
 
-//.best-gift__image {
-//}
-//.best-gift__prices {
-//}
-//.best-gift__price {
-//}
-//.best-gift__title {
-//}
-//.best-gift__text {
-//}
-//.best-gift__icons {
-//}
-//.best-gift__column {
-//}
-//.best-gift__icon {
-//}
-//.icon__content {
-//}
-//.icon__subtitle {
-//}
-//.icon__title {
-//}
-//.best-gift__buttons {
-//}
-//.best-gift__button {
-//}
-//.best-gift__block_paginate {
-//}
-//.pginate_one {
-//}
-//.paginate_two {
-//}
-//.paginate_three {
-//}
+.best-gift__prices {
+   flex: 0 1 55%;
+   background-color: #DADADA;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   width: 65%;
+   padding: 64px;
+   z-index: 2;
+
+}
+.best-gift__body{
+ flex: 0 1 67%;
+}
+.best-gift__price {
+   @extend %Nunito;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 120%;
+   color: #C7A17A;
+}
+.best-gift__title {
+   @extend %Nunito;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 116%;
+   color: #232C38;
+   padding: 12px 0px;
+}
+.best-gift__text {
+   @extend %Nunito;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 136%;
+   color: #151D28;
+}
+.best-gift__icons {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: row;
+   padding: 24px 0px 46px 0px;
+}
+.best-gift__column {
+   flex: 0 1 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+.best-gift__icon {
+   flex: 0 1 20%;
+}
+.icon__content {
+   flex: 0 1 80%;
+}
+.icon__subtitle {
+   @extend %Nunito;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 136%;
+   color: #415167;
+}
+.icon__title {
+   @extend %Nunito;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 136%;
+   color: #415167;
+}
+.best-gift__buttons {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+  
+}
+.best-gift__button_gold {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 32px;
+   color: #fff;
+   background-color: #C7A17A;
+   border: 1px solid white;
+   border-radius: 15px;
+   margin: 0px 29px 0px 0px;
+   
+}
+.best-gift__button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 6px 15px;
+   background-color: inherit;
+   margin: 0px 65px 0px 0px;
+}
+.best-gift__block_paginate {
+   flex: 0 1 5%;
+   display: grid;
+   grid-template-rows: 33.333% 33.333% 33.333%;
+   align-items: center;
+   font-weight: 900;
+   font-size: 30px;
+   line-height: 113%;
+}
+.paginate_one {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  padding: 59.87px 40px;
+ 
+  background-color: #DADADA;
+}
+.paginate_two {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  padding: 59.87px 40px;
+  opacity: 0.7;
+  background-color: #DADADA;
+}
+.paginate_three {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  padding: 59.87px 40px;
+  background-color: #DADADA;
+  opacity: 0.7;
+}
+.paginate_one:active{
+   border-bottom: 1px solid grey;
+   border-top: 1px solid grey;
+   border-right: 1px solid grey;
+}
+.paginate_two:active{
+   border-bottom: 1px solid grey;
+   border-top: 1px solid grey;
+   border-right: 1px solid grey;
+}
+.paginate_three:active{
+   border-bottom: 1px solid grey;
+   border-top: 1px solid grey;
+   border-right: 1px solid grey;
+}

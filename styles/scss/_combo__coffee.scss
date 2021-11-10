@@ -1,0 +1,113 @@
+.combo__coffee {
+}
+.combo-coffee__container {
+   background: -webkit-linear-gradient(90deg, rgb(242, 242, 242) 68%, rgb(65, 81, 103) 22%);
+   background: -moz-linear-gradient(90deg, rgb(242, 242, 242) 68%, rgb(65, 81, 103) 22%);
+   background: linear-gradient(90deg, rgb(242, 242, 242) 68%, rgb(65, 81, 103) 22%);
+   width: 100%;
+   overflow: hidden;
+   z-index: 1;
+   position: relative;
+}
+.combo-coffee__container::after{
+   content: '';
+   padding: 0px 0px 126px 0px;
+   width: 100%;
+   display: block;
+   height: 100%;
+}
+.combo-header__block {
+   text-align: center;
+   margin: 86px 0px 68px 0px;
+}
+.combo__cart-products {
+   width: 110%;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 2%;
+   margin: 0px 0px 0px 132px;
+}
+.combo-product__item {
+   display: grid;
+   grid-template-rows: repeat(2, 1fr);
+   align-items: center;
+   background: #fff;
+}
+.combo-product__img {
+   background-color: #EDF0F5;
+}
+.combo__prices {
+   padding: 42px;
+}
+.combo__price {
+   @extend %Nunito;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 120%;
+   color: #C7A17A;
+}
+.combo__price_span{
+   color: #415167;
+   @extend %Nunito;
+   font-size: 14px;
+   line-height: 117%;
+   text-decoration: line-through;
+   margin: 0px 0px 0px 15px;
+   display: inline-block; 
+}
+.combo__title {
+   @extend %Nunito;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 120%;
+   color: #232C38;
+   margin: 10px 0px;
+}
+.combo__text {
+   @extend %Nunito;
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 136%;
+   color: #151D28;
+   margin: 0px 0px 38px 0px;
+}
+.combo__buttons {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+.combo__link_gold {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 6px 15px;
+   color: #fff;
+   background-color: #C7A17A;
+   border: 1px solid white;
+   border-radius: 15px;
+   margin: 0px 29px 0px 0px;
+}
+.combo__link {
+   color: #415167;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 6px 15px;
+}
+.combo__shift {
+   position: absolute;
+   top: calc(55.5% - 24px);
+   right: 4%;
+}
+.combo__shift_button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 30px;
+   height: 30px;
+   padding: 20px;
+   background: #C7A17A;
+   border-radius: 50%;
+   border: 1px solid #fff;
+}
