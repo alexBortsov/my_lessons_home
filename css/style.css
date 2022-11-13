@@ -98,6 +98,7 @@ body {
 }
 
 .hero__webovio {
+  width: 92.4%;
   display: block;
   background-image: url("../images/cover_webovio.jpg");
   background-repeat: no-repeat;
@@ -168,5 +169,5 @@ body {
   max-height: 227px;
   position: absolute;
   top: -21px;
-  left: calc(50vw - 637px);
+  left: calc(50vw - 454px);
 }/*# sourceMappingURL=style.css.map */
