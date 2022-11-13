@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 1;
+  position: relative;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.link {
+  display: inline-block;
+  text-indent: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  color: #fff;
+}
+.link:hover {
+  border-bottom: 1px solid currentColor;
+  color: #FFD723;
+  transition: color 0.5s ease-in-out;
+}
+
+.hero__button:hover .fa-play {
+  color: #FFD723;
+  transition: color 0.5s ease-in-out;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 23px 0;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burger__button {
+  width: 40px;
+  height: 40px;
+  background: #F5F6F7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.burger-line {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: #000;
+}
+
+.burger-line:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.hero__webovio {
+  display: block;
+  background-image: url("../images/cover_webovio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero_container {
+  padding: 189px 0px 211px 0px;
+}
+
+.hero__content {
+  color: #fff;
+  max-width: 616px;
+  min-height: 412px;
+}
+
+.hero__subtitle {
+  margin-bottom: 22px;
+}
+.hero__subtitle h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hero__title {
+  margin: 0px 0px 24px 0px;
+}
+.hero__title h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+.hero__text {
+  margin: 0px 0px 45px 0px;
+}
+.hero__text h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.arrow-left,
+.arrow-right {
+  width: 20px;
+  position: absolute;
+  top: 43px;
+}
+
+.arrow-right {
+  right: -20px;
+}
+
+.arrow-left {
+  left: -20px;
+}
+
+.webovio__slider {
+  position: relative;
+}
+
+.slider_container {
+  border: 2px solid red;
+  max-width: 1276px;
+  max-height: 227px;
+  position: absolute;
+  top: -21px;
+  left: calc(50vw - 637px);
+}/*# sourceMappingURL=style.css.map */

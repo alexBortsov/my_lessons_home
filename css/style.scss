@@ -1,0 +1,108 @@
+@import 'global.scss';
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 23px 0;
+}
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.burger__button{
+    width: 40px;
+    height: 40px;
+    background: #F5F6F7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.burger-line{
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: #000;
+
+}
+.burger-line:not(:last-child){
+    margin-bottom: 4px;
+}
+
+.hero__webovio{
+    display: block;
+    background-image: url('../images/cover_webovio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.hero_container{
+   padding: 189px 0px 211px 0px;
+   
+}
+.hero__content{    
+    color: #fff;
+    max-width: 616px;
+    min-height: 412px;
+
+}
+.hero__subtitle{
+    margin-bottom: 22px;
+    h5{        
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+}
+.hero__title{
+    margin: 0px 0px 24px 0px;
+    h2{       
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 74px;
+    }
+}
+.hero__text{
+    margin: 0px 0px 45px 0px;
+     h4{ 
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+     }
+}
+.hero__button{
+    a{    
+    
+    }
+}
+.arrow-left,
+.arrow-right{
+    width: 20px;
+    position: absolute;
+    top: 43px;
+    
+}
+.arrow-right{
+    right: -20px;
+}
+.arrow-left{
+    left: -20px;
+}
+.webovio__slider{
+    position: relative;
+}
+.slider_container{
+    border: 2px solid red;
+    max-width: 1276px;
+    max-height: 227px;
+    position: absolute;
+    top: -21px;
+    left: calc(50vw - 637px);
+
+}
