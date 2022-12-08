@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+@import 'var.scss';
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul,
+ol,
+li{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    height: 100%;
+    
+}
+body{
+    line-height: 1;
+    font-family: $manrope;
+    color: $redBlack;
+}
+[class*="__container"]{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.page{
+    flex: 1 1 auto;
+}
+button{
+    background-color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: calc(55 / 40);//в фигме было 55px потому делим 55 на 40
+}
+.title__center{
+    text-align: center;
+}
+//------------------media 1199.98-----------------------/
+@media(max-width: 1199.98px){}
+//------------------media 990.98-----------------------/
+@media(max-width: 990.98px){}
+//------------------media 767.98-----------------------/
+@media(max-width: 767.98px){
+    .title {
+        font-size: 30px;
+    }
+}
+
+//------------------media 479.98-----------------------/
+@media(max-width: 479.98px){}
